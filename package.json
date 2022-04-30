@@ -1,0 +1,21 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "dev": "nodemon app.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^4.0.0",
+    "@sinclair/typebox": "^0.23.5",
+    "dotenv": "^16.0.0",
+    "fastify": "^3.29.0",
+    "ioredis": "^5.0.4"
+  }
+}
